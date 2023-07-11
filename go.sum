@@ -46,8 +46,8 @@ github.com/kkdai/bstream v0.0.0-20161212061736-f391b8402d23/go.mod h1:J+Gs4SYgM6
 github.com/leanovate/gopter v0.2.9 h1:fQjYxZaynp97ozCzfOyOuAGOU4aU/z37zf/tOujFk7c=
 github.com/leanovate/gopter v0.2.9/go.mod h1:U2L/78B+KVFIx2VmW6onHJQzXtFb+p5y3y2Sh+Jxxv8=
 github.com/mattn/go-runewidth v0.0.9 h1:Lm995f3rfxdpd6TSmuVCHVb/QhupuXlYr8sCI/QdE+0=
-github.com/morphism-labs/go-ethereum v1.10.14-0.20230518044234-d49ea7d7a77f h1:NKt28TCwkSnRAY6w7yNr86/+TZxu80sLLURhi9FAVbo=
-github.com/morphism-labs/go-ethereum v1.10.14-0.20230518044234-d49ea7d7a77f/go.mod h1:d47XS2ccvNWOUpCRrAVO4PQSdoeI6qHGfjCq6Dn0JcQ=
+github.com/morphism-labs/go-ethereum v1.10.14-0.20230705062914-b9d37e7fbd3c h1:DSpmjzm96BYu25LrxRX5174xSZgVS6jB/1nFBsrvkes=
+github.com/morphism-labs/go-ethereum v1.10.14-0.20230705062914-b9d37e7fbd3c/go.mod h1:d47XS2ccvNWOUpCRrAVO4PQSdoeI6qHGfjCq6Dn0JcQ=
 github.com/olekukonko/tablewriter v0.0.5 h1:P2Ga83D34wi1o9J6Wh1mRuqd4mF/x/lgBS7N7AbDhec=
 github.com/onsi/ginkgo v1.6.0/go.mod h1:lLunBs/Ym6LB5Z9jYTR76FiuTmxDTDusOGeTQH+WWjE=
 github.com/onsi/ginkgo v1.7.0/go.mod h1:lLunBs/Ym6LB5Z9jYTR76FiuTmxDTDusOGeTQH+WWjE=
