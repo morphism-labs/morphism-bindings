@@ -11,7 +11,6 @@ bindings: l1block-bindings \
 	l1-standard-bridge-bindings \
 	l2-to-l1-message-passer-bindings \
 	optimism-portal-bindings \
-	l2-output-oracle-bindings \
 	gas-price-oracle-bindings \
 	legacy-message-passer-bindings \
 	address-manager-bindings \
@@ -39,8 +38,8 @@ version:
 
 compile:
 	cd ../contracts/ && \
-		yarn clean && \
-		npx hardhat compile
+		yarn clean && yarn && \
+		yarn build
 
 system-config-bindings: compile
 	./gen_bindings.sh contracts/L1/SystemConfig.sol:SystemConfig $(pkg)
@@ -56,9 +55,6 @@ optimism-portal-bindings: compile
 
 optimism-zkevm-bindings: compile
 	./gen_bindings.sh contracts/L1/ZKEVM.sol:ZKEVM $(pkg)
-
-l2-output-oracle-bindings: compile
-	./gen_bindings.sh contracts/L1/L2OutputOracle.sol:L2OutputOracle $(pkg)
 
 address-manager-bindings: compile
 	./gen_bindings.sh contracts/legacy/AddressManager.sol:AddressManager $(pkg)
